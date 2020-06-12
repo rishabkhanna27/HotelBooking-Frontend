@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--<title>Hotel Website</title>-->
+	<!--<link rel="stylesheet" type="text/css" href="css/style.css">-->
+	<style>
+		{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header
+{
+	background-image: url(bk.jpg);
+	height: 35vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+ul li
+{
+	display: inline-block
+}
+ul li a
+{
+	text-decoration: none;
+	color: #000;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+}
+ul li a:hover
+{
+	background-color: #fff;
+	color: #000;
+}
+ul li.active a
+{
+	background-color: #fff;
+	color: #000;
+}
+.logo img
+{
+	float: left;
+	width: 100px;
+	height: auto;
+	margin-top: 25px;
+	
+}
+.main
+{
+	max-width: 1800px;
+	margin: auto;
+}
+.title
+{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.title h1
+{
+	color: #fff;
+	font-size: 40px;
+}
+
+
+
+
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+
+}
+.group:before,
+.group:after {
+    content:"";
+    display:table;
+}
+.group:after {
+    clear:both;
+}
+.group {
+    zoom:1;
+}
+.col{
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+.col:first-child{
+	margin-left:0;
+}	
+.s2 {
+	width: 63.1%;
+	padding:1.5%; 
+}
+.s {
+	width: 29.2%;
+	padding:1.5%; 
+}
+.s  h3 {
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 2em;
+	margin: 0;
+	text-transform: uppercase;
+	color: #454545;
+}
+.contact-form{
+	position:relative;
+	padding-bottom:30px;
+}
+.contact-form div{
+	padding:5px 0;
+}
+.contact-form span{
+	display:block;
+	font-size:1em;
+	color: #454545;
+	padding-bottom:5px;
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+.contact-form input[type="text"],.contact-form textarea{
+		    padding:8px;
+			display:block;
+			width:98%;
+			border: none;
+			outline:none;
+			color:#464646;
+			font-size:0.8125em;
+			font-family:Arial, Helvetica, sans-serif;
+			border: 1px solid rgba(192, 192, 192, 0.41);
+}
+.contact-form textarea{
+		resize:none;
+		height:120px;		
+}
+.contact-form input[type="submit"]{
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 1.2em;
+	text-decoration: none;
+	text-transform: uppercase;
+	margin-right: 15px;
+	transition: all 0.3s ease-out;
+	text-align: center;
+	margin: 0 auto;
+	color: #71D6EA;
+	border: none;
+	background:none;
+	cursor:pointer;
+}
+.contact-form input[type="submit"]:active{
+	color: #454545;
+}
+.company_address p{
+	font-size: 0.875em;
+	color: #6a6a6a;
+	line-height: 1.8em;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.company_address p span{
+	text-decoration:underline;
+	color:#454545;
+	cursor:pointer;
+}
+
+
+
+	</style>
+</head>
+<body>
+	<header>
+		<div class="main">
+		<div class="logo">
+			<img src="lo.png">
+		</div>
+			<ul>
+				<li><a href="home.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="gallery.html">GALLERY</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li class="active"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</div>
+	</header>
+
+
+<div class="contact">
+								
+				
+<div class="s">
+					
+<div class="contact_info">
+			    	 	
+      				
+
+<div class="company_address">
+
+
+				     	
+<h3>Company Information :</h3>
+						    	
+<p>Rajiv Gandhi IT Park</p>
+						   		
+<p>Block Number 2</p>
+						   		
+<p>Chandigarh</p>
+				   		
+<p>Phone:(0172)-999999</p>
+				   						 	 	
+<p>Email: <span>hotelinfo@gmail.com</span></p>
+				   		
+<p>Follow us on: <span>Facebook</span>, <span>Twitter</span></p>
+						
+</div>
+				
+</div>				
+				
+
+
+<div class="s2">
+				  
+<div class="contact-form">
+				  	
+<h3>Contact Us</h3>
+					    
+<form method="post" action="reg.html">
+					    	
+<div>
+						    	
+<p><label>FULL NAME</label></p>
+						    	
+<p><input name="userName" type="text" class="textbox"></p>
+						    
+</div>
+	
+
+					    
+<div>
+						    	
+<p><label>E-MAIL ID</label></p>
+						    	
+<p><input name="userEmail" type="text" class="textbox"></p>
+						    
+</div>
+	
+					    
+<div>
+						     	
+<p><label>MOBILE NUMBER</label></p>
+						    	
+<p><input name="userPhone" type="text" class="textbox"></p>
+						    
+</div>
+						    
+<div>
+						    	
+<p><label>SUBJECT</label></p>
+						    	
+<p><textarea name="userMsg"> </textarea></p>
+						    
+</div>
+	
+					   
+<div>
+						   		
+<p><input type="submit" value="Submit"></p>
+						  
+</div>
+
+					    
+</form>
+
+				    
+</div>
+  				
+</div>				
+			  
+</div>
+			
+</div>
+				
+			
+
+
+</body>
+<html>

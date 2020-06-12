@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+    .booking  {
+      background-color: #ff8000;
+	border:10px;
+    }
+
+    legend  {
+	font-size: 50px;
+	align:center;	
+    }
+    .forms  {
+	background-color: #fff; 
+	height:400px;
+	width:500px;
+	spacing:100px;
+    }
+    .buttons  {
+      background-color: #0000;
+    }
+.id
+	{
+	padding:5px;
+	
+	}
+
+label{
+display:inline-block;
+width:200px;
+margin-right:30px;
+text-align:right;
+
+}
+
+fieldset{
+border:none;
+width:500px;
+margin:0px auto;
+paddin:2px;
+}
+
+
+    </style>
+    <title>Booking</title>
+  </head>
+  <body class="booking" align="center">
+    <fieldset class="forms">
+      <legend align="center">Booking</legend>
+      <form action="succ.html" method="post">
+        <label>First Name:</label><input type="text" class="id"><br>
+        <label>Last Name:</label><input type="text" class="id"><br>
+        <label>Email ID:</label><input type="email" class="id"><br>
+        <label>Contact No:</label><input type="tel" maxlength="10" class="id"><br>
+        <label>Room Type:</label><input type="text" class="id"><br>
+        <label>Number of Nights:</label><input type="int" class="id"><br>
+        <label>Adults:</label><input type="int" class="id"><br>
+        <label>Payment Type:</label><input type="text" class="id"><br>
+        <label>Any Additional Requirement:</label><input type="text" class="id"><br>
+        <input type="checkbox">I agree to all Terms and Conditions
+        <br>
+        <br>
+        <p align="center"><input class="buttons" type="submit" value="Book"></p>
+      </form>
+    </fieldset>
+  </body>
+</html>
